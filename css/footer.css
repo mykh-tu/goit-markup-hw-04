@@ -71,10 +71,10 @@ font-weight: 500;
         align-items: flex-start;
         justify-content: flex-start;
         flex-direction: row;
-        gap: 16px;
+    
 }
 
-.footer .social-link:hover {
+.footer .social-link:hover, .footer .social-link:focus {
     background: #31d0aa;
     border-radius: 20px;
 }
@@ -88,3 +88,7 @@ font-weight: 500;
 }
 
 .socialicon {} 
+
+.footer-icon {
+        fill: currentColor;
+}
