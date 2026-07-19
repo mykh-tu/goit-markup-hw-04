@@ -38,7 +38,7 @@ color: #f4f4fd;
             max-width: 264px;
 }
 
-.footer-box, {
+.footer-box {
     display: flex;
         align-items: flex-start;
         justify-content: flex-start;
@@ -46,6 +46,7 @@ color: #f4f4fd;
         gap: 16px;
     width: 208px;
     height: 80px;
+    margin-left: 120px;
 }
 
 .footer-title {
@@ -59,7 +60,7 @@ font-weight: 500;
 }
 
 .social-item {
-    transition: box-shadow 250ms cubic-bezier(0.4,
+    transition: background-color 250ms cubic-bezier(0.4,
                 0,
                 0.2,
                 1);
@@ -85,3 +86,5 @@ font-weight: 500;
         border-radius: 40px;
         background: #4d5ae5;
 }
+
+.socialicon {} 

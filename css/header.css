@@ -72,7 +72,7 @@ color: #404bbf
 
 .header-nav-link.current::after {
 position: relative;
-top: 24px;
+bottom: -24px;
 content: "";
 display: block;
 width: 100%;
@@ -101,7 +101,7 @@ font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    transition: box-shadow 250ms cubic-bezier(0.4,
+    transition: color 250ms cubic-bezier(0.4,
                 0,
                 0.2,
                 1);
